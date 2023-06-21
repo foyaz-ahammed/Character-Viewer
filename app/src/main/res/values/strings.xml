@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Simpsons Character Viewer</string>
+    <string name="character_detail">Character Detail</string>
+    <string name="no_item_found">No Item Found.</string>
+    <string name="item_found_format">%1$d item(s) found.</string>
+    <string name="search">Search</string>
+    <string name="error_message">Network connection error. Please try again.</string>
+    <string name="retry">Retry</string>
+</resources>
