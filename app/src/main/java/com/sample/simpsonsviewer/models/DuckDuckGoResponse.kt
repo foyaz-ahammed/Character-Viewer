@@ -2,6 +2,9 @@ package com.sample.simpsonsviewer.models
 
 import com.google.gson.annotations.SerializedName
 
+/**
+ * Service response class
+ */
 data class DuckDuckGoResponse(
     @SerializedName("Abstract")
     val abstract: String,

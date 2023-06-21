@@ -10,10 +10,15 @@ import com.sample.simpsonsviewer.fragments.ListFragment
 import com.sample.simpsonsviewer.viewModels.DuckDuckGoViewModel
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
+/**
+ * Activity for the main page.
+ */
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
     private val navController by lazy { findNavController(R.id.nav_host_fragment) }
+
+    // This is just activity view model and shared on fragments. Not used on the activity.
     private val viewModel: DuckDuckGoViewModel by viewModel()
 
     override fun onCreate(savedInstanceState: Bundle?) {

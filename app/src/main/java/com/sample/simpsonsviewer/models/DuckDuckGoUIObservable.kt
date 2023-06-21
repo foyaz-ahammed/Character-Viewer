@@ -1,5 +1,8 @@
 package com.sample.simpsonsviewer.models
 
+/**
+ * Observable class to update values on view model
+ */
 class DuckDuckGoUIObservable(
     val result: DuckDuckGoUIModel? = null,
     val error: Exception? = null,

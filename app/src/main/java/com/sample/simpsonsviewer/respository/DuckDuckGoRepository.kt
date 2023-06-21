@@ -1,12 +1,14 @@
 package com.sample.simpsonsviewer.respository
 
-import com.sample.simpsonsviewer.BuildConfig
 import com.sample.simpsonsviewer.api.DuckDuckGoService
-import com.sample.simpsonsviewer.models.ResponseModel
 import com.sample.simpsonsviewer.models.Character
+import com.sample.simpsonsviewer.models.ResponseModel
 import com.sample.simpsonsviewer.respository.mapper.ResponseMapper
 import com.sample.simpsonsviewer.utility.Constants
 
+/**
+ * Repository class handling business logic fetching data
+ */
 class DuckDuckGoRepository(
     private val service: DuckDuckGoService,
     private val mapper: ResponseMapper

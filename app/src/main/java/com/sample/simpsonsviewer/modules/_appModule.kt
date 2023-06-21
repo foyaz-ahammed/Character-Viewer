@@ -11,6 +11,9 @@ import org.koin.dsl.module
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
+/**
+ * Define modules to inject on Application class with Koin
+ */
 val appModule = module {
     single { getDuckDuckGoService() }
     single { ResponseMapper() }

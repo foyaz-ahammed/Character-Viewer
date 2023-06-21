@@ -15,6 +15,9 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 
+/**
+ * View model class used on List and Detail fragments
+ */
 class DuckDuckGoViewModel(private val repository: DuckDuckGoRepository) : ViewModel() {
 
     private val _duckDuckGoData = MutableLiveData<DuckDuckGoUIObservable>()

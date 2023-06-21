@@ -4,6 +4,9 @@ import com.sample.simpsonsviewer.models.DuckDuckGoResponse
 import com.sample.simpsonsviewer.models.Character
 import com.sample.simpsonsviewer.utility.Constants
 
+/**
+ * Mapper class to map service response to ui model
+ */
 class ResponseMapper {
     fun mapResponseToCharacterList(response: DuckDuckGoResponse): List<Character> {
         return response.relatedTopics.map {
